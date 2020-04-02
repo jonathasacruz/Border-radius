@@ -3,10 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Border-radius</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="script.js"></script>
+    <div id="PageTitle">
+      <h1>Border-radius CSS3 generator</h1>
+    </div>
+    
+    <div id="description">
+      <h3>Try values to change the border radius style</h2>
+    </div>
+
+    <div id="editor">
+      <form action="">
+        <label for="tl">top-left</label>
+          <input type="number" name="top-left" id="tl" value=15 oninput="tlBorderSet()">
+          
+          <label for="tr">top-right</label>
+          <input type="text" name="top-right" id="tr" value=15>
+
+          <label for="bl">bottom-left</label>
+          <input type="text" name="bottom-left" id="bl" value=15>
+
+          <label for="br">bottom-right</label>
+          <input type="text" name="bottom-right" id="br" value=15>
+      </form>
+    </div>
+
   </body>
 </html>

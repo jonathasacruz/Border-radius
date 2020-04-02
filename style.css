@@ -1,0 +1,20 @@
+html{
+    background-color: rgb(37, 37, 37);
+    font-family: 'Gotu', sans-serif;
+    color:bisque;
+}
+#PageTitle {
+    color:bisque;
+    font-size: 2vw;
+    max-width: 100vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#description{
+    color: bisque;
+    font-size: 1.3vw;
+    max-width: 100vw;
+    font-weight: lighter;
+    text-align: center;
+}

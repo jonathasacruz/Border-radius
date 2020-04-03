@@ -18,3 +18,22 @@ html{
     font-weight: lighter;
     text-align: center;
 }
+
+#editor{
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    border-color: blueviolet;
+    border-style: dashed;
+    
+
+}
+
+#tl{
+    
+    
+}
+
+#tr{
+    right: 30px;
+}

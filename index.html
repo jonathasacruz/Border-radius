@@ -21,18 +21,20 @@
     <div id="editor">
       <form action="">
           <label for="tl">top-left</label>
-          <input type="number" name="top-left" id="tl" value=15 oninput="tlBorderSet()">
+          <input type="number" name="top-left" id="tl" value=15 min=0 max=100 oninput="tlBorderSet()">
           
+          <div class="border-box" id="border-box">Border box</div> 
+
           <label for="tr">top-right</label>
-          <input type="text" name="top-right" id="tr" value=15 oninput="borderUnlink()">
-<br>
-          <input type="button" id="button" value="Seems like this">
-<br>
+          <input type="number" name="top-right" id="tr" value=15 min=0 max=100 oninput="borderUnlink()">
+          
+          <br>
+          
           <label for="bl">bottom-left</label>
-          <input type="text" name="bottom-left" id="bl" value=15 oninput="borderUnlink()">
+          <input type="number" name="bottom-left" id="bl" value=15 min=0 max=100 oninput="borderUnlink()">
 
           <label for="br">bottom-right</label>
-          <input type="text" name="bottom-right" id="br" value=15 oninput="borderUnlink()">
+          <input type="number" name="bottom-right" id="br" value=15 min=0 max=100 oninput="borderUnlink()">
       </form>
     </div>
 
